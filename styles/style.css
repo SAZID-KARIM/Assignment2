@@ -1,0 +1,81 @@
+/* body font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* top banner */
+.banner-container{
+    background-color: #2d25a0;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner-img img{
+    width: 556px;
+    height: 438px;
+}
+.banner-info h1{
+    font-size: 64px;
+    color: white;
+}
+.link-button{
+    background-color: #e02c6d;
+    padding: 10px 24px;
+    border: none;
+}
+.link-button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+/* players part */
+
+.players-container{
+    position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    justify-content: center;
+}
+.player {
+    
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);  
+}
+.player-banner img{
+    width: 300px;
+    height: 256px;
+}
+.player-details{
+    width: 300px;
+    height: 154px;
+}
+.player-title{
+    width: 300px;
+    height: 40px;
+}
+.player-info{
+    width: 300px;
+    height: 104px;
+    top: 50px;
+}
