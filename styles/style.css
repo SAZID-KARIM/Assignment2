@@ -125,7 +125,7 @@ footer{
         margin-top: 50px;
     }
 
-    }
+    
     .players-container{
         margin-left: 0;
         margin-right: 0;
@@ -133,6 +133,7 @@ footer{
    
     .players{
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
         
     }
     .players{
@@ -144,4 +145,3 @@ footer{
     }
    
     
-}
