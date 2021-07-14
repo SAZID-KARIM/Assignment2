@@ -14,9 +14,14 @@ body{
     justify-content: space-around;
 
 }
+.banner-img:hover {
+    transform: scale(1) rotate(30deg);
+    transition: transform 4s ease-in-out;
+}
 .banner-img img{
     width: 556px;
     height: 438px;
+    
 }
 .banner-info h1{
     font-size: 64px;
@@ -60,6 +65,7 @@ body{
 .player-banner img{
     width: 300px;
     height: 256px;
+    
 }
 
 /* footer part */
@@ -84,4 +90,52 @@ footer{
     color: #969bab;
     height: 32px;
     width: 32px;
+}
+
+/* media quaries */
+
+/* mobile device */
+
+@media only screen and (max-width:688px) {
+    body{
+        width: 360px;
+        margin-left: 0;
+        margin-top: 0;
+       
+    }
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .deatils{
+        width: 247px;
+        height: 138px;
+        
+
+    }
+    .banner-img img{
+        width: 329px;
+        height: 259.17px;
+    }
+
+    }
+    .players-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+   
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .players{
+        width: 360px;
+    }
+    .footer-section img{
+        width: 275px;
+        height: 63px;
+    }
+   
+    
 }
